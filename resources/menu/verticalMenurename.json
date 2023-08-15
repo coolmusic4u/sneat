@@ -1,0 +1,134 @@
+{
+  "menu": [
+    {
+      "name": "Data Preparation",
+      "icon": "menu-icon tf-icons bx bx-data",
+      "slug": "preparation",
+      "submenu": [
+        {
+          "url": "/preparation/paf",
+          "name": "Permanent Audit File",
+          "slug": "preparation-paf"
+        },
+        {
+          "url": "/preparation/CompanyInformation",
+          "name": "Company Information",
+          "slug": "preparation-company-information"
+        },
+        {
+          "url": "/preparation/StatutoryAudit",
+          "name": "Card and Share",
+          "slug": "preparation-statutory-audit"
+        },
+        {
+          "url": "/preparation/AccountImport",
+          "name": "Excel Data Import",
+          "slug": "preparation-account-import"
+        },
+        {
+          "url": "/preparation/AccountGrouping",
+          "name": "Grouping of Accounts",
+          "slug": "preparation-account-grouping"
+        }
+      ]
+    },
+    {
+      "name": "Audit Planning",
+      "icon": "menu-icon tf-icons bx bxs-edit",
+      "slug": "planning",
+      "submenu": [
+        {
+          "url": "/planning/AuditProgramme",
+          "name": "Audit Programmes",
+          "slug": "planning-audit-programme"
+        },
+        {
+          "url": "/planning/InitialPM",
+          "name": "Initial Materiality",
+          "slug": "planning-initial-pm"
+        }
+      ]
+    },    
+    {
+      "name": "Audit Work",
+      "icon": "menu-icon tf-icons bx bx-search-alt",
+      "slug": "work",
+      "submenu": [
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Asset",
+          "slug": "work-lead-schedule1"
+        },        
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Liabilities",
+          "slug": "work-lead-schedule2"
+        },
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Operating Statement",
+          "slug": "work-lead-schedule3"
+        },
+        {
+          "url": "/work/AuditLetter",
+          "name": "Statutory Audit",
+          "slug": "work-audit-letter4"
+        },
+        {
+          "url": "/work/AuditLetter",
+          "name": "Other Leads",
+          "slug": "work-audit-letter5"
+        },
+        {
+          "url": "/work/AuditLetter",
+          "name": "Audit Letters",
+          "slug": "work-audit-letter6"
+        }
+      ]
+    },
+    {
+      "name": "Audit Completion",
+      "icon": "menu-icon tf-icons bx bx-check-circle",
+      "slug": "completion",
+      "submenu": [
+        {
+          "url": "/completion/AuditCompletion",
+          "name": "Audit Completion",
+          "slug": "completion-audit-completion"
+        },
+        {
+          "url": "/completion/FinalPM",
+          "name": "Final Materiality",
+          "slug": "completion-final-pm"
+        }
+      ]
+    },
+    {
+      "name": "Financial Statement",
+      "icon": "menu-icon tf-icons bx bx-food-menu",
+      "slug": "reporting"
+    },
+    {
+      "menuHeader": "Other Tools"
+    },
+    {
+      "url": "app/email",
+      "name": "File Storage Manager",
+      "icon": "menu-icon tf-icons bx bx-envelope",
+      "slug": "app-email"
+    },
+    {
+      "url": "app/email",
+      "name": "ISQM",
+      "icon": "menu-icon tf-icons bx bx-envelope",
+      "slug": "app-email"
+    },
+    {
+      "url": "app/email",
+      "name": "MBRS",
+      "icon": "menu-icon tf-icons bx bx-envelope",
+      "slug": "app-email"
+    }
+
+  ]
+}

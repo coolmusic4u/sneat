@@ -1,0 +1,169 @@
+{
+  "menu": [
+
+    {
+      "menuHeader": "Data Preparation"
+    },
+    {
+      "url": "/preparation/paf",
+      "name": "Permanent Audit File",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "slug": "preparation-paf"
+    },
+    {
+      "url": "/preparation/StatutoryAudit",
+      "name": "Card and Share",
+      "icon": "menu-icon tf-icons bx bx-info-circle",
+      "slug": "preparation-statutory-audit"
+    },        
+    {
+      "url": "/preparation/AccountImport",
+      "name": "Excel Data Import",
+      "icon": "menu-icon tf-icons bx bx-import",
+      "slug": "preparation-account-import"
+    },
+    {
+      "url": "/preparation/AccountGrouping",
+      "name": "Grouping of Accounts",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "preparation-account-grouping"
+    },
+    {
+      "menuHeader": "Audit Planning"
+    },
+    {
+      "url": "/planning/AuditProgramme",
+      "name": "Audit Programmes",
+      "icon": "menu-icon tf-icons bx bx-check-circle",
+      "slug": "planning-audit-programme"
+    },
+    {
+      "url": "/planning/InitialPM",
+      "name": "Initial Materiality",
+      "icon": "menu-icon tf-icons bx bx-pie-chart-alt-2",
+      "slug": "planning-initial-pm"
+    },
+    {
+      "menuHeader": "Audit Work"
+    },
+    {
+      "url": "/work/LeadSchedule",
+      "name": "Asset",
+      "icon": "menu-icon tf-icons bx bx-briefcase",
+      "slug": "work-lead-schedule1" ,
+      "submenu": [
+        {
+          "url": "/work/LeadSchedule",
+          "name": "PPE",
+          "slug": "planning-audit-programme"
+        },
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Cash and Bank Balances",
+          "slug": "planning-initial-pm"
+        }
+      ]
+    },        
+    {
+      "url": "/work/LeadSchedule",
+      "name": "Liabilities",
+      "icon": "menu-icon tf-icons bx bx-trending-down",
+      "slug": "work-lead-schedule2",
+      "submenu": [
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Account Payables",
+          "slug": "planning-audit-programme"
+        },
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Other Payables",
+          "slug": "planning-initial-pm"
+        }
+      ]
+    },
+    {
+      "url": "/work/LeadSchedule",
+      "name": "Operating Statement",
+      "icon": "menu-icon tf-icons bx bx-line-chart",
+      "slug": "work-lead-schedule3",
+      "submenu": [
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Sales",
+          "slug": "planning-audit-programme"
+        },
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Cost of Sales",
+          "slug": "planning-initial-pm"
+        },
+        {
+          "url": "/work/LeadSchedule",
+          "name": "Expenses",
+          "slug": "planning-initial-pm"
+        }
+      ]
+    },
+    {
+      "url": "/work/AuditLetter",
+      "name": "Statutory Audit",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "work-audit-letter4"
+    },
+    {
+      "url": "/work/AuditLetter",
+      "name": "Other Leads",
+      "icon": "menu-icon tf-icons bx bx-calendar-check",
+      "slug": "work-audit-letter5"
+    },
+    {
+      "url": "/work/AuditLetter",
+      "name": "Audit Letters",
+      "icon": "menu-icon tf-icons bx bx-envelope",
+      "slug": "work-audit-letter6"
+    },
+    {
+      "menuHeader": "Audit Completion"
+    },
+    {
+      "url": "/completion/AuditCompletion",
+      "name": "Audit Completion",
+      "icon": "menu-icon tf-icons bx bx-task",
+      "slug": "completion-audit-completion"
+    },
+    {
+      "url": "/completion/FinalPM",
+      "name": "Final Materiality",
+      "icon": "menu-icon tf-icons bx bx-pie-chart",
+      "slug": "completion-final-pm"
+    },
+    {
+      "menuHeader": "Reporting"
+    },
+    {
+      "name": "Financial Statement",
+      "icon": "menu-icon tf-icons bx bx-bar-chart-alt-2",
+      "slug": "reporting"
+    },
+    {
+      "menuHeader": "Other Tools"
+    },
+    {
+      "name": "File Storage Manager",
+      "icon": "menu-icon tf-icons bx bx-folder",
+      "slug": "reporting"
+    },
+    {
+      "name": "ISQM module",
+      "icon": "menu-icon tf-icons bx bx-cube-alt",
+      "slug": "reporting"
+    },
+    {
+      "name": "MBRS filling",
+      "icon": "menu-icon tf-icons bx bx-cube",
+      "slug": "reporting"
+    }
+
+  ]
+}
